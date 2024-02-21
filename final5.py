@@ -6,10 +6,10 @@ from tensorflow.keras.models import load_model
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Load pre-trained fall detection model
-fall_detection_model = load_model('C:\\Users\\Admin\\OneDrive\\Desktop\\Emotion +Fall detection\\final_cnn_model.h5')
+fall_detection_model = load_model('C:\\Users\\Nivi-HP\\Desktop\\Human+fall+Emotion\\trained models\\final_cnn_model.h5')
 
 # Load pre-trained emotion recognition model
-emotion_model = load_model('C:\\Users\\Admin\\OneDrive\\Desktop\\Emotion +Fall detection\\emotion_model.hdf5')
+emotion_model = load_model('C:\\Users\\Nivi-HP\\Desktop\\Human+fall+Emotion\\trained models\\emotion_model.hdf5')
 
 # Load labels for emotion recognition
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
